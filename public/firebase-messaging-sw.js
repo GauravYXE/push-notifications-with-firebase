@@ -5,13 +5,13 @@ importScripts(
 
 // Replace these with your own Firebase config keys...
 const firebaseConfig = {
-  apiKey: null,
-  authDomain: null,
-  projectId: null,
-  storageBucket: null,
-  messagingSenderId: null,
-  appId: null,
-  measurementId: null,
+  apiKey: "AIzaSyBpYg-KAzwWGaT3g7J8smjnNqP8N8Nj8vQ",
+  authDomain: "penpalmagicapp.firebaseapp.com",
+  projectId: "penpalmagicapp",
+  storageBucket: "penpalmagicapp.appspot.com",
+  messagingSenderId: "45289060638",
+  appId: "1:45289060638:web:33121bc47d40ceef83f10f",
+  measurementId: "G-FG3MPZ8JV6"
 };
 
 firebase.initializeApp(firebaseConfig);

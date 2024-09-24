@@ -3,13 +3,13 @@ import { getMessaging, getToken, isSupported } from "firebase/messaging";
 
 // Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-  apiKey: null,
-  authDomain: null,
-  projectId: null,
-  storageBucket: null,
-  messagingSenderId: null,
-  appId: null,
-  measurementId: null,
+  apiKey: "AIzaSyBpYg-KAzwWGaT3g7J8smjnNqP8N8Nj8vQ",
+  authDomain: "penpalmagicapp.firebaseapp.com",
+  projectId: "penpalmagicapp",
+  storageBucket: "penpalmagicapp.appspot.com",
+  messagingSenderId: "45289060638",
+  appId: "1:45289060638:web:33121bc47d40ceef83f10f",
+  measurementId: "G-FG3MPZ8JV6"
 };
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
