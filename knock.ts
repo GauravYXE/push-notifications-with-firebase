@@ -1,5 +1,5 @@
 import Knock from "@knocklabs/client";
 
-const knock = new Knock("pk_test_DrupIVsF3JyDzz_iMt-W6GzsD0kKoU_sLd97ulGtNMc"); // Ensure your API key is correct
+const knock = new Knock("process.env.KNOCK_API"); // Ensure your API key is correct
 
 export default knock;
