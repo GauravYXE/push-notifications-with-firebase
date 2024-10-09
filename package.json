@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@knocklabs/client": "^0.10.13",
     "@knocklabs/node": "^0.6.13",
     "@knocklabs/node-sdk": "^0.1.0",
+=======
+>>>>>>> upstream/main
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-toast": "^1.1.5",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+<<<<<<< HEAD
     "firebase": "^10.14.0",
+=======
+    "firebase": "^10.12.2",
+>>>>>>> upstream/main
     "firebase-admin": "^12.2.0",
     "lucide-react": "^0.394.0",
     "next": "14.2.4",
